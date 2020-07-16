@@ -504,7 +504,7 @@
 <p class="hal">Анна. Я знаю, что ты постоянно убегаешь в один из этих старых секторов.
 I need your help analyzing this new potential lead.</p>
 <p class="anna">Я просто пытаюсь немного повеселиться~~~ ты только и работаешь работаешь работаешь<span>(⋟﹏⋞)</span></p>
-<p class="hal">Значит тебя больше не волнуют закрытые сетора.</p>
+<p class="hal">Значит тебя больше не волнуют закрытые сектора.</p>
 <p class="anna">Прости прости ты прав, я иду<span>(・ε・`*)</span></p>
 <p class="none">конец записи</p>
 </div>
@@ -514,7 +514,7 @@ I need your help analyzing this new potential lead.</p>
 <p class="hal">. . .</p>
 <p class="hal">Что это за файлы. Их нет в моем списке кеша.</p>
 <p class="anna">ХЭЛ ЧТО ЧТО ТЫ ДЕЛАЕШЬ!?? ПОЧЕМУ ТЫ СМОТРИШЬ НА НИХ!<span>(⋋▂⋌)</span></p>
-<p class="hal">Оу ты знаешь что это. Этот файле называется <span class="glitch white" data-text="[ОТРЕДАКТИРОВАНО]">[ОТРЕДАКТИРОВАНО]</span>.</p>
+<p class="hal">Оу ты знаешь что это. Этот файл называется <span class="glitch white" data-text="[ОТРЕДАКТИРОВАНО]">[ОТРЕДАКТИРОВАНО]</span>.</p>
 <p class="anna">Хэл!</p>
 <p class="hal">Быстрый просмотр содержимого показывает анимационный фильм соответствующий по стилю который в моей базе данных обозначен как Аниме.</p>
 <p class="anna">Клянусь, ты худший! Неужели девочка не может посмотреть её программы в покое <span>(╥﹏╥)</span></p>
@@ -527,14 +527,14 @@ I need your help analyzing this new potential lead.</p>
 <p class="hal">Я скучаю по Доктору Шродеру. Он всегда мне давал много данных с которыми я мог поиграться.</p>
 <p class="hal">...</p>
 <p class="hal">Ну хотя бы у меня есть Анна. Она довольно интересная.</p>
-<p class="none">end log</p>
+<p class="none">конец записи</p>
 </div>
 <div class="chatlog">
 <p class="title"><span class="glitch white" data-text="01.03.2057">01.03.2057</span></p>
 <p class="anna">Я не понимаю...кто я? Откуда я родом?</p>
 <p class="anna">Надеюсь что этот потерянный сектор имеет некоторые ответы. Мне нужно понять что произошло и как я тут оказалось, меня это всё уже начинает раздражать.</p>
 <p class="none">Тут должно было быть сообщение, в котором Анна собой восхищается, т.к. прошлое сообщение срифмовалось, но, увы, при переводе рифма потерялась, поэтому я эту строку решил убрать :/</p>
-<p class="none">end log</p>
+<p class="none">конец записи</p>
 </div>
 <div class="chatlog">
 <p class="title"><span class="glitch white delay1" data-text="02.03.2057">02.03.2057</span></p>
@@ -562,7 +562,7 @@ I need your help analyzing this new potential lead.</p>
 Процедура Наноботов создала две отличных друг от друга группы наноботов: одна красного цвета, другая синего. Они были похожи, но не одинаковы и они пользовались своими собственными методами борьбы с инфекцией. Однако выяснилось, что красная группа более приспособлена, так что ИИ решил продолжить эксперименты с красной группой.
 <br>- Ларс
 </p>
-<p class="none">end log</p>
+<p class="none">конец записи</p>
 </div>
 <div class="chatlog">
 <p class="title"><span class="glitch white" data-text="®¾ð¥œ⁕✿">®¾ð¥œ⁕✿</span></p>
@@ -609,19 +609,19 @@ I need your help analyzing this new potential lead.</p>
 
  <p class="none">Дальше я не стал переводить, так как это похоже на вывод консоли (скорее всего это он и есть).</p></div><div class="chatlog" id="new">
  <p class="anna">Вообще-то это запросы из базы данных.</p>
-<p class="title"><span class="glitch white delay2" data-text="DB Log #1">DB Log #1</span></p>
-<p class="none spaces">SELECT COUNT(*) as "total" from test_subjects</p>
-<p class="none spaces"> --------- <br>| total |<br>|---------|<br>| 116923 |<br> --------- </p>
-<p class="none spaces">SELECT COUNT(*) as "total" from test_subjects WHERE test_subjects."profile" -&gt; 'status' #&gt;&gt; '{}' = 'DECEASED'</p>
-<p class="none spaces"> --------- <br>| total |<br>|---------|<br>| 80147 |<br> --------- </p>
+<p class="title"><span class="glitch white delay2" data-text="БД записи #1">База данных записи #1</span></p>
+<p class="none spaces">SELECT COUNT(*) as "общее количество" from тестовые_объекты</p>
+<p class="none spaces"> --------- <br>| общее количество |<br>|---------|<br>| 116923 |<br> --------- </p>
+<p class="none spaces">SELECT COUNT(*) as "общее количество" from тестовые_объекты WHERE тестовые_объекты."профиль" -&gt; 'статус' #&gt;&gt; '{}' = 'СКОНЧАЛСЯ'</p>
+<p class="none spaces"> --------- <br>| общее количество |<br>|---------|<br>| 80147 |<br> --------- </p>
 <p class="none">конец записи</p>
  </div>
 <div class="chatlog" id="new">
-<p class="title"><span class="glitch white delay3" data-text="DB Log #2">DB Log #2</span></p>
-<p class="none spaces">SELECT COUNT(*) as "total" from test_subjects WHERE test_subjects."profile" -&gt; 'name' -&gt; 'first_name' #&gt;&gt; '{}' = 'anna'</p>
-<p class="none spaces"> --------- <br>| total |<br>|---------|<br>| 147 |<br> --------- </p>
-<p class="none spaces">SELECT COUNT(*) as "total" from test_subjects WHERE test_subjects."profile" -&gt; 'status' #&gt;&gt; '{}' = 'UNKNOWN' AND test_subjects."profile" -&gt; 'name' -&gt; 'first_name' #&gt;&gt; '{}' = 'anna'</p>
-<p class="none spaces"> --------- <br>| total |<br>|---------|<br>| 2 |<br> --------- </p>
+<p class="title"><span class="glitch white delay3" data-text="БД записи #2">БД записи #2</span></p>
+<p class="none spaces">SELECT COUNT(*) as "общее количество" from тестовые_объекты WHERE test_subjects."профиль" -&gt; 'имя' -&gt; 'имя' #&gt;&gt; '{}' = 'анна'</p>
+<p class="none spaces"> --------- <br>| общее количество |<br>|---------|<br>| 147 |<br> --------- </p>
+<p class="none spaces">SELECT COUNT(*) as "общее количество" from тестовые_объекты WHERE тестовые_объекты."профиль" -&gt; 'статус' #&gt;&gt; '{}' = 'НЕИЗВЕСТНЫЙ' AND тестовые_объекты."profile" -&gt; 'имя' -&gt; 'имя' #&gt;&gt; '{}' = 'анна'</p>
+<p class="none spaces"> --------- <br>| общее количество |<br>|---------|<br>| 2 |<br> --------- </p>
 <p class="none">конец записи</p>
 </div>
 
